@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech Returner News</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a href="#content">Skip to content</a>
+    <a id="skip-link" href="#content">Skip to content</a>
     <header>
-      <a href="/">Tech Returner News</a>
+      <a id="newspaper-name" href="/">Tech Returner News</a>
       <nav>
         <a href="">News</a>
         <a href="">Opinion</a>
@@ -20,7 +28,7 @@
         <a href="">Jobs</a>
       </nav>
     </header>
-    <aside>
+    <aside class="readability">
       <p>
         We aim to make this site accessible to a wide audience and to ensure a
         great experience for all users by conforming to
@@ -31,7 +39,7 @@
         However, if you are having trouble reading this website you can change
         the way it looks or disable some of its functionalities.
       </p>
-      <input id="flashingToggler" type="checkbox" />
+      <input id="flashingToggler" type="checkbox" checked />
       <label for="flashingToggler">Allow flashing elements</label>
       <span>Untick this to disable flashing and moving elements</span>
     </aside>
